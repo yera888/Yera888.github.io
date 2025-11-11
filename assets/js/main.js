@@ -15,7 +15,7 @@ jQuery(document).ready(function ($) {
 
 
 		/*======= Populate GitHub Projects *=======*/
-		let gitHubUsername = 'YOUR GITHUB USERNAME';
+		let gitHubUsername = 'Yera888';
 
 		// Run GitHub API function, passing in the GitHub username
 		requestUserRepos(gitHubUsername)
@@ -85,7 +85,7 @@ jQuery(document).ready(function ($) {
 
 	function requestUserRepos(username) {
 		// create a variable to hold the `Promise` returned from `fetch`
-		return Promise.resolve(fetch(`https://api.github.com/users/${username}/repos?sort=created`));
+		return Promise.resolve(fetch(`https://api.github.com/users/${yera888}/repos?sort=created`));
 	}
 
 
